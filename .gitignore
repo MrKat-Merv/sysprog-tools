@@ -1,0 +1,29 @@
+# Compiled programs: ignore files with no extension,
+# but keep folders and the extensionless files we write by hand.
+*
+!*/
+!*.*
+!Makefile
+!LICENSE
+!README
+
+# C build output
+*.o
+*.a
+*.so
+*.out
+build/
+
+# Debugging leftovers
+core
+core.*
+vgcore.*
+massif.out.*
+callgrind.out.*
+vg.*.txt
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
